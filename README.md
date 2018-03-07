@@ -1,14 +1,14 @@
 # UpMovies
 > The UpMovies lists upcoming movies from the TMDB API. It was developed using TDD + Clean Architecture + MVP
-
-[![Swift Version][swift-image]][swift-url]
-[![Build Status][travis-image]][travis-url]
-[![License][license-image]][license-url]
 [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
 
-![](list.png)
-![](detail.png)
-![](search.png)
+## showcase
+
+<p align="center">
+<img src="list.png" align="center" hspace="5" vspace="5" width="20%" height="20%">
+<img src="detail.png" align="center" hspace="5" vspace="5" width="20%" height="20%">
+<img src="search.png" align="center" hspace="5" vspace="5" width="20%" height="20%">
+</p>
 
 ## Features
 
