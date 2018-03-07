@@ -11,7 +11,8 @@ class SearchMovieConfiguratorImpl: SearchMovieConfigurator {
         let apiClient = ApiClientImpl(urlSessionConfiguration: URLSessionConfiguration.default, completionHandlerQueue: OperationQueue.main)
         let apiMoviesGateway = ApiMovieGatewayImpl(apiClient: apiClient)
         let searchMoviesInteractor = SearchMovieInteractorImpl(with: apiMoviesGateway)
-        let presenter = SearchMoviePresenterImpl(searchMovieInteractor: searchMoviesInteractor, view: searchMoviesViewController)
+        let router = SearchMovieViewRouterImpl(searchMoviesViewController: searchMoviesViewController)
+        let presenter = SearchMoviePresenterImpl(searchMovieInteractor: searchMoviesInteractor, view: searchMoviesViewController, router: router)
         
         searchMoviesViewController.presenter = presenter
     }
@@ -21,6 +22,7 @@ class SearchMovieConfiguratorImpl: SearchMovieConfigurator {
         searchMoviesViewController.searchController.searchResultsUpdater = searchMoviesViewController
         searchMoviesViewController.searchController.delegate = searchMoviesViewController
         searchMoviesViewController.searchController.searchBar.delegate = searchMoviesViewController
+        searchMoviesViewController.searchController.searchBar.tintColor = UIColor.white
         
         searchMoviesViewController.searchController.hidesNavigationBarDuringPresentation = false
         searchMoviesViewController.searchController.dimsBackgroundDuringPresentation = true

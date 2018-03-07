@@ -15,21 +15,30 @@ protocol SearchMoviePresenter {
     func searchMovie(by name: String)
     var numberOfMovies: Int { get }
     func configure(cell: SearchMovieViewCell, forRow row: Int)
+    func didSelect(row: Int)
+    var router: SearchMovieRouter { get }
 }
 
 class SearchMoviePresenterImpl: SearchMoviePresenter {
     fileprivate weak var view: SearchMovieView?
-    fileprivate var searchMovieInteractor: SearchMovieInteractor
+    fileprivate let searchMovieInteractor: SearchMovieInteractor
+    fileprivate let searchMovieRouter: SearchMovieRouter
 
     var movies = [Movie]()
     var numberOfMovies: Int {
         return movies.count
     }
     
+    var router: SearchMovieRouter {
+        return searchMovieRouter
+    }
+    
     init(searchMovieInteractor: SearchMovieInteractor,
-         view: SearchMovieView) {
+         view: SearchMovieView,
+         router: SearchMovieRouter) {
         self.searchMovieInteractor = searchMovieInteractor
         self.view = view
+        self.searchMovieRouter = router
     }
     
     func searchMovie(by name: String) {
@@ -47,8 +56,13 @@ class SearchMoviePresenterImpl: SearchMoviePresenter {
         let movie = movies[row]
         
         cell.display(name: movie.name)
-        cell.display(genres: movie.genres.map { "\($0)" }.joined(separator: ", "))
+        cell.display(genres: movie.genres.map { "\($0.name)" }.joined(separator: "/"))
         cell.display(poster: UIImage.imageFromURL(string: movie.poster))
+    }
+    
+    func didSelect(row: Int) {
+        let movie = movies[row]
+        searchMovieRouter.presentMovieDetail(movie: movie)
     }
     
     private func handleSearchMoviesReceived(_ movies: [Movie]) {

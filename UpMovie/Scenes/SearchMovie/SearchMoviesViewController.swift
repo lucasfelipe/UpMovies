@@ -32,6 +32,10 @@ class SearchMoviesViewController: UITableViewController, SearchMovieView, UISear
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.presenter.didSelect(row: indexPath.row)
+    }
+    
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 80
     }
@@ -59,14 +63,8 @@ class SearchMoviesViewController: UITableViewController, SearchMovieView, UISear
         self.presenter.searchMovie(by: name)
     }
 
-    /*
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        self.presenter.router.prepare(for: segue, sender: sender)
     }
-    */
-
 }

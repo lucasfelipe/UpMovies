@@ -4,6 +4,7 @@ import XCTest
 class SearchMoviePresenterTests: XCTestCase {
     let searchMovieInteractorStub = SearchMovieInteractorStub()
     let searchMovieViewSpy = SearchMovieViewSpy()
+    let searchMovieRouterSpy = SearchMovieViewRouterSpy()
     
     var searchMoviePresenter: SearchMoviePresenterImpl!
     
@@ -11,7 +12,8 @@ class SearchMoviePresenterTests: XCTestCase {
         super.setUp()
         self.searchMoviePresenter = SearchMoviePresenterImpl(
             searchMovieInteractor: searchMovieInteractorStub,
-            view: searchMovieViewSpy
+            view: searchMovieViewSpy,
+            router: searchMovieRouterSpy
         )
     }
     
@@ -43,7 +45,7 @@ class SearchMoviePresenterTests: XCTestCase {
         searchMoviePresenter.movies = Movie.createAnArray()
         let firstMovie = searchMoviePresenter.movies[0]
         let expectedDisplayName = firstMovie.name
-        let expectedDisplayGenres = firstMovie.genres.map { "\($0)" }.joined(separator: ", ")
+        let expectedDisplayGenres = firstMovie.genres.map { "\($0.name)" }.joined(separator: ", ")
         let expectedDisplayPoster = UIImage.imageFromURL(string: firstMovie.poster)
         
         let searchMoviesViewCellSpy = SearchMovieViewCellSpy()
@@ -53,6 +55,17 @@ class SearchMoviePresenterTests: XCTestCase {
         XCTAssertEqual(expectedDisplayName, searchMoviesViewCellSpy.name)
         XCTAssertEqual(expectedDisplayGenres, searchMoviesViewCellSpy.genres)
         XCTAssertEqual(UIImageJPEGRepresentation(expectedDisplayPoster!, 0.0), UIImageJPEGRepresentation(searchMoviesViewCellSpy.poster!, 0.0))
+        
+    }
+    
+    func testDidSelectSearchMovieCellDetailView() {
+        let movies = Movie.createAnArray()
+        let rowToDetail = 1
+        searchMoviePresenter.movies = movies
+        
+        searchMoviePresenter.didSelect(row: rowToDetail)
+        
+        XCTAssertEqual(movies[rowToDetail], searchMovieRouterSpy.passedMovie, "The movie passed need to be the movie selected")
         
     }
     

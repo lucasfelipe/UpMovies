@@ -10,7 +10,7 @@ struct ListMovieRequest: ApiRequest {
     ]
     
     init(with page: Int) {
-        self.params["release_date.gte"] = Date.string(from: Date())
+        self.params["primary_release_date.gte"] = Date.string(from: Date())
         self.params["page"] = "\(page)"
     }
     
