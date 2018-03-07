@@ -61,16 +61,12 @@
 		0AB0E38C204B2DA00009C5D4 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB0E38B204B2DA00009C5D4 /* MovieCollectionViewCell.swift */; };
 		0AB0E38E204B90110009C5D4 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB0E38D204B90110009C5D4 /* UIImageExtension.swift */; };
 		0AB0E393204C13690009C5D4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB0E392204C13690009C5D4 /* Constants.swift */; };
-		0ABDAE642046C65000AEA741 /* UpMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABDAE632046C65000AEA741 /* UpMovieUITests.swift */; };
 		0AE6C580204706C5001A7F06 /* ApiClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6C57F204706C5001A7F06 /* ApiClientTests.swift */; };
 		0AE6C58220470D04001A7F06 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6C58120470D04001A7F06 /* Result.swift */; };
 		0AE6C5882047AA56001A7F06 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6C5872047AA56001A7F06 /* ApiClient.swift */; };
 		0AE6C58B2047ACCB001A7F06 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6C58A2047ACCB001A7F06 /* ApiResponse.swift */; };
 		0AE6C58D2047AFED001A7F06 /* JSONExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6C58C2047AFED001A7F06 /* JSONExtension.swift */; };
 		0AE6C5912047B1AA001A7F06 /* ApiSessionConfigStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6C5902047B1AA001A7F06 /* ApiSessionConfigStub.swift */; };
-		2450B7A9C9F8542B5990D88F /* Pods_UpMovie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC9E3C74B5DFA29E1AC5A3A /* Pods_UpMovie.framework */; };
-		35AE9B0EA4834AECDE97886B /* Pods_UpMovieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E9D0BA718409BC9D555418 /* Pods_UpMovieUITests.framework */; };
-		F267878A8A0ADE836581A2CF /* Pods_UpMovieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB43EB651B4C59709E4D8FC /* Pods_UpMovieTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,17 +77,9 @@
 			remoteGlobalIDString = 0ABDAE3F2046C65000AEA741;
 			remoteInfo = UpMovie;
 		};
-		0ABDAE602046C65000AEA741 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0ABDAE382046C65000AEA741 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0ABDAE3F2046C65000AEA741;
-			remoteInfo = UpMovie;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06E718B23CD44E85F8108DF0 /* Pods-UpMovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpMovie.release.xcconfig"; path = "Pods/Target Support Files/Pods-UpMovie/Pods-UpMovie.release.xcconfig"; sourceTree = "<group>"; };
 		0A1843CB204C1C90007A4815 /* DetailMoviePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMoviePresenter.swift; sourceTree = "<group>"; };
 		0A1843CD204C2056007A4815 /* DetailMovieViewSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieViewSpy.swift; sourceTree = "<group>"; };
 		0A1843D1204C2178007A4815 /* DetailMoviePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMoviePresenterTests.swift; sourceTree = "<group>"; };
@@ -150,23 +138,12 @@
 		0ABDAE4F2046C65000AEA741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0ABDAE542046C65000AEA741 /* UpMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ABDAE5A2046C65000AEA741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0ABDAE5F2046C65000AEA741 /* UpMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0ABDAE632046C65000AEA741 /* UpMovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpMovieUITests.swift; sourceTree = "<group>"; };
-		0ABDAE652046C65000AEA741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AE6C57F204706C5001A7F06 /* ApiClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClientTests.swift; sourceTree = "<group>"; };
 		0AE6C58120470D04001A7F06 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		0AE6C5872047AA56001A7F06 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		0AE6C58A2047ACCB001A7F06 /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
 		0AE6C58C2047AFED001A7F06 /* JSONExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONExtension.swift; sourceTree = "<group>"; };
 		0AE6C5902047B1AA001A7F06 /* ApiSessionConfigStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiSessionConfigStub.swift; sourceTree = "<group>"; };
-		43886F898100D238CD9A5BD8 /* Pods-UpMovieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpMovieTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UpMovieTests/Pods-UpMovieTests.release.xcconfig"; sourceTree = "<group>"; };
-		7EC9E3C74B5DFA29E1AC5A3A /* Pods_UpMovie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UpMovie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A150C821833C69053B617A1F /* Pods-UpMovieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpMovieTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UpMovieTests/Pods-UpMovieTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A7121191C75F42F1148D0D9E /* Pods-UpMovieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpMovieUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UpMovieUITests/Pods-UpMovieUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		AAB43EB651B4C59709E4D8FC /* Pods_UpMovieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UpMovieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0DAD953D56F3B0678A2CBF4 /* Pods-UpMovie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpMovie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UpMovie/Pods-UpMovie.debug.xcconfig"; sourceTree = "<group>"; };
-		C6E9D0BA718409BC9D555418 /* Pods_UpMovieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UpMovieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2ACF9493F6165DE969BD812 /* Pods-UpMovieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpMovieUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UpMovieUITests/Pods-UpMovieUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,7 +151,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2450B7A9C9F8542B5990D88F /* Pods_UpMovie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,15 +158,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F267878A8A0ADE836581A2CF /* Pods_UpMovieTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0ABDAE5C2046C65000AEA741 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				35AE9B0EA4834AECDE97886B /* Pods_UpMovieUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,10 +377,7 @@
 			children = (
 				0ABDAE422046C65000AEA741 /* UpMovie */,
 				0ABDAE572046C65000AEA741 /* UpMovieTests */,
-				0ABDAE622046C65000AEA741 /* UpMovieUITests */,
 				0ABDAE412046C65000AEA741 /* Products */,
-				90A1AB0DE5822A25EA1A1466 /* Pods */,
-				765493E50216E2AAE9D01D3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -422,7 +386,6 @@
 			children = (
 				0ABDAE402046C65000AEA741 /* UpMovie.app */,
 				0ABDAE542046C65000AEA741 /* UpMovieTests.xctest */,
-				0ABDAE5F2046C65000AEA741 /* UpMovieUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -449,15 +412,6 @@
 				0ABDAE5A2046C65000AEA741 /* Info.plist */,
 			);
 			path = UpMovieTests;
-			sourceTree = "<group>";
-		};
-		0ABDAE622046C65000AEA741 /* UpMovieUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0ABDAE632046C65000AEA741 /* UpMovieUITests.swift */,
-				0ABDAE652046C65000AEA741 /* Info.plist */,
-			);
-			path = UpMovieUITests;
 			sourceTree = "<group>";
 		};
 		0AE6C5742046C93E001A7F06 /* Models */ = {
@@ -505,29 +459,6 @@
 			path = Stubs;
 			sourceTree = "<group>";
 		};
-		765493E50216E2AAE9D01D3E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7EC9E3C74B5DFA29E1AC5A3A /* Pods_UpMovie.framework */,
-				AAB43EB651B4C59709E4D8FC /* Pods_UpMovieTests.framework */,
-				C6E9D0BA718409BC9D555418 /* Pods_UpMovieUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		90A1AB0DE5822A25EA1A1466 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C0DAD953D56F3B0678A2CBF4 /* Pods-UpMovie.debug.xcconfig */,
-				06E718B23CD44E85F8108DF0 /* Pods-UpMovie.release.xcconfig */,
-				A150C821833C69053B617A1F /* Pods-UpMovieTests.debug.xcconfig */,
-				43886F898100D238CD9A5BD8 /* Pods-UpMovieTests.release.xcconfig */,
-				A7121191C75F42F1148D0D9E /* Pods-UpMovieUITests.debug.xcconfig */,
-				E2ACF9493F6165DE969BD812 /* Pods-UpMovieUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -535,12 +466,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0ABDAE682046C65000AEA741 /* Build configuration list for PBXNativeTarget "UpMovie" */;
 			buildPhases = (
-				519213F553A86AC83D1CE42B /* [CP] Check Pods Manifest.lock */,
 				0ABDAE3C2046C65000AEA741 /* Sources */,
 				0ABDAE3D2046C65000AEA741 /* Frameworks */,
 				0ABDAE3E2046C65000AEA741 /* Resources */,
-				2D018A32DE5D869A9F00A19D /* [CP] Embed Pods Frameworks */,
-				28671A1F9247DBDDC5640E22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -555,12 +483,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0ABDAE6B2046C65000AEA741 /* Build configuration list for PBXNativeTarget "UpMovieTests" */;
 			buildPhases = (
-				14CC7E73BB331E9F7B5B56D6 /* [CP] Check Pods Manifest.lock */,
 				0ABDAE502046C65000AEA741 /* Sources */,
 				0ABDAE512046C65000AEA741 /* Frameworks */,
 				0ABDAE522046C65000AEA741 /* Resources */,
-				E82AA5E251BB70FDB68A679F /* [CP] Embed Pods Frameworks */,
-				E3D9E839323E39ECA65398A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -571,27 +496,6 @@
 			productName = UpMovieTests;
 			productReference = 0ABDAE542046C65000AEA741 /* UpMovieTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		0ABDAE5E2046C65000AEA741 /* UpMovieUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0ABDAE6E2046C65000AEA741 /* Build configuration list for PBXNativeTarget "UpMovieUITests" */;
-			buildPhases = (
-				0BED9615EBC9B7E7045B451D /* [CP] Check Pods Manifest.lock */,
-				0ABDAE5B2046C65000AEA741 /* Sources */,
-				0ABDAE5C2046C65000AEA741 /* Frameworks */,
-				0ABDAE5D2046C65000AEA741 /* Resources */,
-				70657A94FA37FF4BF46E3433 /* [CP] Embed Pods Frameworks */,
-				0DBE73E81478A78E4416AF6D /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0ABDAE612046C65000AEA741 /* PBXTargetDependency */,
-			);
-			name = UpMovieUITests;
-			productName = UpMovieUITests;
-			productReference = 0ABDAE5F2046C65000AEA741 /* UpMovieUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -608,11 +512,6 @@
 						ProvisioningStyle = Automatic;
 					};
 					0ABDAE532046C65000AEA741 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 0ABDAE3F2046C65000AEA741;
-					};
-					0ABDAE5E2046C65000AEA741 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 0ABDAE3F2046C65000AEA741;
@@ -634,7 +533,6 @@
 			targets = (
 				0ABDAE3F2046C65000AEA741 /* UpMovie */,
 				0ABDAE532046C65000AEA741 /* UpMovieTests */,
-				0ABDAE5E2046C65000AEA741 /* UpMovieUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -657,164 +555,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0ABDAE5D2046C65000AEA741 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0BED9615EBC9B7E7045B451D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-UpMovieUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0DBE73E81478A78E4416AF6D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UpMovieUITests/Pods-UpMovieUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		14CC7E73BB331E9F7B5B56D6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-UpMovieTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		28671A1F9247DBDDC5640E22 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UpMovie/Pods-UpMovie-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2D018A32DE5D869A9F00A19D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-UpMovie/Pods-UpMovie-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UpMovie/Pods-UpMovie-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		519213F553A86AC83D1CE42B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-UpMovie-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		70657A94FA37FF4BF46E3433 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UpMovieUITests/Pods-UpMovieUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E3D9E839323E39ECA65398A0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UpMovieTests/Pods-UpMovieTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E82AA5E251BB70FDB68A679F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UpMovieTests/Pods-UpMovieTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0ABDAE3C2046C65000AEA741 /* Sources */ = {
@@ -888,14 +629,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0ABDAE5B2046C65000AEA741 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0ABDAE642046C65000AEA741 /* UpMovieUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -903,11 +636,6 @@
 			isa = PBXTargetDependency;
 			target = 0ABDAE3F2046C65000AEA741 /* UpMovie */;
 			targetProxy = 0ABDAE552046C65000AEA741 /* PBXContainerItemProxy */;
-		};
-		0ABDAE612046C65000AEA741 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0ABDAE3F2046C65000AEA741 /* UpMovie */;
-			targetProxy = 0ABDAE602046C65000AEA741 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -979,7 +707,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1030,7 +758,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -1040,7 +768,6 @@
 		};
 		0ABDAE692046C65000AEA741 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0DAD953D56F3B0678A2CBF4 /* Pods-UpMovie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1056,7 +783,6 @@
 		};
 		0ABDAE6A2046C65000AEA741 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06E718B23CD44E85F8108DF0 /* Pods-UpMovie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1072,7 +798,6 @@
 		};
 		0ABDAE6C2046C65000AEA741 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A150C821833C69053B617A1F /* Pods-UpMovieTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1089,7 +814,6 @@
 		};
 		0ABDAE6D2046C65000AEA741 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43886F898100D238CD9A5BD8 /* Pods-UpMovieTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1101,38 +825,6 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpMovie.app/UpMovie";
-			};
-			name = Release;
-		};
-		0ABDAE6F2046C65000AEA741 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7121191C75F42F1148D0D9E /* Pods-UpMovieUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = UpMovieUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lucas.UpMovieUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = UpMovie;
-			};
-			name = Debug;
-		};
-		0ABDAE702046C65000AEA741 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2ACF9493F6165DE969BD812 /* Pods-UpMovieUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = UpMovieUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lucas.UpMovieUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = UpMovie;
 			};
 			name = Release;
 		};
@@ -1162,15 +854,6 @@
 			buildConfigurations = (
 				0ABDAE6C2046C65000AEA741 /* Debug */,
 				0ABDAE6D2046C65000AEA741 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0ABDAE6E2046C65000AEA741 /* Build configuration list for PBXNativeTarget "UpMovieUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0ABDAE6F2046C65000AEA741 /* Debug */,
-				0ABDAE702046C65000AEA741 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
