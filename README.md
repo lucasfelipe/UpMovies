@@ -5,9 +5,9 @@
 ## showcase
 
 <p align="center">
-<img src="list.png" align="center" hspace="5" vspace="5" width="20%" height="20%">
-<img src="detail.png" align="center" hspace="5" vspace="5" width="20%" height="20%">
-<img src="search.png" align="center" hspace="5" vspace="5" width="20%" height="20%">
+<img src="showcase/list.png" align="center" hspace="5" vspace="5" width="20%" height="20%">
+<img src="showcase/detail.png" align="center" hspace="5" vspace="5" width="20%" height="20%">
+<img src="showcase/search.png" align="center" hspace="5" vspace="5" width="20%" height="20%">
 </p>
 
 ## Features
